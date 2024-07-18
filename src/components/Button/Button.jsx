@@ -1,7 +1,7 @@
-import React from 'react'
+
 
 const Button = ({ increment, onClickFunction }) => {
-  const handleClick = () => {
+  const handleClick = (increment) => {
     onClickFunction(increment)
   }
   return <button onClick={handleClick}>+{increment}</button>
