@@ -1,7 +1,7 @@
 
 
 const Button = ({ increment, onClickFunction }) => {
-  const handleClick = (increment) => {
+  const handleClick = () => {
     onClickFunction(increment)
   }
   return <button onClick={handleClick}>+{increment}</button>
